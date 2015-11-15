@@ -17,6 +17,10 @@
 			"matches": [ "*://www.theguardian.com/*" ],
 			"js":      [ "jquery-2.1.4.min.js", "date-check.js", "theguardian.js" ]
 		},
+		{
+			"matches": [ "*://www.bbc.co.uk/news/*" ],
+			"js":      [ "jquery-2.1.4.min.js", "date-check.js", "bbc.js" ]
+		}
 	],
 	
 	"permissions": [
