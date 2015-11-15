@@ -1,0 +1,28 @@
+{
+	"manifest_version": 2,
+	
+	"name":        "Stale News Warning",
+	"short_name":  "Stale News",
+	"description": "This extension will warn you if you are reading an old news article",
+	"version":     "0.1",
+	
+	"icons": {
+		"16":  "icon16.png",
+		"48":  "icon48.png",
+		"128": "icon128.png"
+	},
+	
+	"content_scripts": [
+		{
+			"matches": [ "*://www.theguardian.com/*" ],
+			"js":      [ "jquery-2.1.4.min.js", "theguardian.js" ]
+		}
+	],
+	
+	"permissions": [
+		"*://www.theguardian.com/*",
+		"tabs",
+		"activeTab"
+	]
+}
+
