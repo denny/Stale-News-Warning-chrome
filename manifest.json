@@ -4,7 +4,7 @@
 	"name":        "Stale News Warning",
 	"short_name":  "Stale News",
 	"description": "This extension will warn you if you are reading an old news article",
-	"version":     "0.3",
+	"version":     "0.4",
 	
 	"icons": {
 		"16":  "icon16.png",
@@ -16,6 +16,10 @@
 		{
 			"matches": [ "*://www.bbc.co.uk/news/*" ],
 			"js":      [ "jquery-2.1.4.min.js", "date-check.js", "bbc.js" ]
+		},
+		{
+			"matches": [ "*://*.cnn.com/*" ],
+			"js":      [ "jquery-2.1.4.min.js", "date-check.js", "cnn.js" ]
 		},
 		{
 			"matches": [ "*://www.theguardian.com/*" ],
@@ -32,6 +36,7 @@
 	
 	"permissions": [
 		"*://www.bbc.co.uk/news/*",
+		"*://*.cnn.com/*",
 		"*://www.theguardian.com/*",
 		"*://www.huffingtonpost.co.uk/*",
 		"*://www.huffingtonpost.com/*",
