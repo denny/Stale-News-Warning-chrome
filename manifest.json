@@ -21,10 +21,10 @@
 			"matches": [ "*://*.cnn.com/*" ],
 			"js":      [ "jquery-2.1.4.min.js", "date-check.js", "cnn.js" ]
 		},
-        {
-            "matches": [ "*://*.dailymail.co.uk/*" ],
+		{
+			"matches": [ "*://*.dailymail.co.uk/*" ],
 			"js":      [ "jquery-2.1.4.min.js", "date-check.js", "dailymail.js" ]
-        },
+		},
 		{
 			"matches": [ "*://www.theguardian.com/*" ],
 			"js":      [ "jquery-2.1.4.min.js", "date-check.js", "theguardian.js" ]
@@ -36,16 +36,6 @@
 			],
 			"js":      [ "jquery-2.1.4.min.js", "date-check.js", "huffingtonpost.js" ]
 		}
-	],
-	
-	"permissions": [
-		"*://www.bbc.co.uk/news/*",
-		"*://*.cnn.com/*",
-		"*://www.theguardian.com/*",
-		"*://www.huffingtonpost.co.uk/*",
-		"*://www.huffingtonpost.com/*",
-		"tabs",
-		"activeTab"
 	]
 }
 
