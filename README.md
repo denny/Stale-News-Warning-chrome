@@ -4,3 +4,6 @@ an old news article.
 
 Currently supported: BBC News, CNN, The Guardian, Huffington Post
 
+# Install
+https://chrome.google.com/webstore/detail/stale-news-warning/leimdfebooadifmdaofhjkplmpiimlpg
+
