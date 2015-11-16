@@ -21,6 +21,10 @@
 			"matches": [ "*://*.cnn.com/*" ],
 			"js":      [ "jquery-2.1.4.min.js", "date-check.js", "cnn.js" ]
 		},
+        {
+            "matches": [ "*://*.dailymail.co.uk/*" ],
+			"js":      [ "jquery-2.1.4.min.js", "date-check.js", "dailymail.js" ]
+        },
 		{
 			"matches": [ "*://www.theguardian.com/*" ],
 			"js":      [ "jquery-2.1.4.min.js", "date-check.js", "theguardian.js" ]
