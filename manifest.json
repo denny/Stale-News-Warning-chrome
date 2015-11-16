@@ -43,6 +43,10 @@
 		{
 			"matches": [ "*://news.sky.com/*" ],
 			"js":      [ "jquery-2.1.4.min.js", "date-check.js", "skynews.js" ]
+		},
+		{
+			"matches": [ "*://www.independent.co.uk/*" ],
+			"js":      [ "jquery-2.1.4.min.js", "date-check.js", "independent.js" ]
 		}
 	]
 }
