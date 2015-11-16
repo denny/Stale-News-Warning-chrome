@@ -4,7 +4,7 @@
 	"name":        "Stale News Warning",
 	"short_name":  "Stale News",
 	"description": "This extension will warn you if you are reading an old news article",
-	"version":     "0.5",
+	"version":     "0.6",
 	
 	"icons": {
 		"16":  "icon16.png",
@@ -39,6 +39,10 @@
 		{
 			"matches": [ "*://www.nytimes.com/*" ],
 			"js":      [ "jquery-2.1.4.min.js", "date-check.js", "nytimes.js" ]
+		},
+		{
+			"matches": [ "*://news.sky.com/*" ],
+			"js":      [ "jquery-2.1.4.min.js", "date-check.js", "skynews.js" ]
 		}
 	]
 }
