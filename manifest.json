@@ -37,8 +37,8 @@
 			"js":      [ "jquery-2.1.4.min.js", "date-check.js", "huffingtonpost.js" ]
 		},
 		{
-			"matches": [ "*://www.nytimes.com/*" ],
-			"js":      [ "jquery-2.1.4.min.js", "date-check.js", "nytimes.js" ]
+			"matches": [ "*://www.independent.co.uk/*" ],
+			"js":      [ "jquery-2.1.4.min.js", "date-check.js", "independent.js" ]
 		},
 		{
 			"matches": [ "*://www.indiatimes.com/*" ],
@@ -47,6 +47,10 @@
 		{
 			"matches": [ "*://timesofindia.indiatimes.com/*" ],
 			"js":      [ "jquery-2.1.4.min.js", "date-check.js", "timesofindia.js" ]
+		},
+		{
+			"matches": [ "*://www.nytimes.com/*" ],
+			"js":      [ "jquery-2.1.4.min.js", "date-check.js", "nytimes.js" ]
 		},
 		{
 			"matches": [ "*://news.sky.com/*" ],
