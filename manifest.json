@@ -35,6 +35,10 @@
 				"*://www.huffingtonpost.com/*"
 			],
 			"js":      [ "jquery-2.1.4.min.js", "date-check.js", "huffingtonpost.js" ]
+		},
+		{
+			"matches": [ "*://www.nytimes.com/*" ],
+			"js":      [ "jquery-2.1.4.min.js", "date-check.js", "nytimes.js" ]
 		}
 	]
 }
