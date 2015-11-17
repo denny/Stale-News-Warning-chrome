@@ -1,4 +1,4 @@
-// (Current) BBC News date HTML:
+// BBC News date HTML:
 // <p class="date date--v1" data-seconds="1447545683"><strong>15 November 2015</strong> Last updated at 00:01 GMT </p>
 // OR: <div class="date date--v2" data-seconds="1352293816" data-datetime="7 November 2012">7 November 2012</div>
 
