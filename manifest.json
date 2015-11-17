@@ -63,6 +63,10 @@
 		{
 			"matches": [ "*://uk.news.yahoo.com/*" ],
 			"js":      [ "jquery-2.1.4.min.js", "date-check.js", "yahoo-uk.js" ]
+		},
+		{
+			"matches": [ "*://stackoverflow.com/questions/*" ],
+			"js":      [ "jquery-2.1.4.min.js", "date-check.js", "stackoverflow.js" ]
 		}
 	]
 }
