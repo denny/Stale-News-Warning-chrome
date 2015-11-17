@@ -4,7 +4,7 @@ an old news article.
 
 Currently supported: BBC News, CNN, Daily Mail, The Guardian, Huffington Post, 
 The Independent, India Times / Times of India, New York Times, Sky News (UK), 
-Yahoo News, Yahoo News UK
+Yahoo News, Yahoo News UK, Stack Overflow
 
 # Install
 https://chrome.google.com/webstore/detail/stale-news-warning/leimdfebooadifmdaofhjkplmpiimlpg
