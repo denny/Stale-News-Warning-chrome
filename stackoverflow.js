@@ -1,9 +1,9 @@
 // Stackoverflow Date HTML:
-// <p class="label-key" title="2014-06-02 16:57:19Z"><b>1 year ago</b></p>
+// <time itemprop="dateCreated" datetime="2021-08-07T10:45:44">today</time>
 
 jQuery( function( $ ) {
   // Extract the publication date from the page HTML
-  var published = $('table#qinfo td:contains("asked")').next('td').find('p').attr('title');
+  var published = $('time[itemprop="dateCreated"]').attr('datetime');
   
   // Pass the date string to the date-checking function
   dateCheck( published );

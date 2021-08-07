@@ -1,12 +1,9 @@
 // (Current) Huffington Post date HTML:
-// <span class="posted">
-//     Posted: <time datetime="2015-11-15T13:57:53-05:00">
-//     15/11/2015 18:57 GMT        </time>
-// </span>
+// <meta property="article:published_time" content="2021-08-06T14:08:48.000Z">
 
 jQuery( function( $ ) {
 	// Extract the publication date from the page HTML
-	var published = $( 'span[class="posted"]' ).find( 'time' ).attr( 'datetime' );
+	var published = $( 'meta[property="article:published_time"]' ).attr( 'content' );
 	
 	// Pass the date string to the date-checking function
 	dateCheck( published );
