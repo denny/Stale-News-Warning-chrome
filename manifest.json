@@ -35,7 +35,8 @@
 		{
 			"matches": [
 				"*://www.huffingtonpost.co.uk/*",
-				"*://www.huffingtonpost.com/*"
+				"*://www.huffingtonpost.com/*",
+				"*://www.huffpost.com/*"
 			],
 			"js":      [ "jquery-2.1.4.min.js", "date-check.js", "huffingtonpost.js" ]
 		},
