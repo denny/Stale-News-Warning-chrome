@@ -1,14 +1,17 @@
 // (Current UK) Sky News
-// <script id="rich-snippet-article" type="application/ld+json">
-// {
-//         "datePublished": "2015-10-14T12:36:58+01:00",
+// the date is embedded within the JSON metadata of a <script> element; the
+// object's key is called "datePublished"
 
 jQuery( function( $ ) {
 	// Extract the publication date from the page HTML/script
-    var payload = $("#rich-snippet-article").html();
-    var json = JSON.parse(payload);
+        let scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+        let scriptWithDatePublished = scripts.filter(
+            script => /datePublished/.test(script.innerText)
+        )[0];
+        let pageMetadta = JSON.parse(scriptWithDatePublished.innerText);
+        let published = pageMetadta.datePublished;
 
 	// Pass the date string to the date-checking function
-	dateCheck( json.datePublished);
+	dateCheck( published );
 } );
 
