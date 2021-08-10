@@ -1,22 +1,22 @@
-// Date check function - checks a date to see hold old it is, 
+// Date check function - checks a date to see hold old it is,
 // and warns the user via alert()
 // Input: published - must be a string that can be parsed by Date()
 
 function dateCheck( published ) {
 	//alert( 'Date Published: ' + published );
-	
+
 	// Set up Date objects for publication date and today's date
 	var pub_date = new Date( published );
 	var now_date = new Date();
-	
+
 	// Find the difference between publication date and today's date
 	var diff = new Date( now_date.getTime() - pub_date.getTime() );
-	
+
 	// Calculate difference in years, months, and days
 	var year_diff  = diff.getUTCFullYear() - 1970;
 	var month_diff = diff.getUTCMonth();
 	var day_diff   = diff.getUTCDate() - 1;
-	
+
 	// Pop up a suitable warning based on how stale the article is
 	var s = '';
 	// TODO: Remove 'over' from warnings if the date diff is exactly X years/months

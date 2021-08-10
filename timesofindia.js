@@ -23,7 +23,7 @@ jQuery( function( $ ) {
 		}
 	});
 	published = published.replace( /,[^,]+$/, '' );
-	
+
 	// Pass the date string to the date-checking function
 	dateCheck( published );
 } );

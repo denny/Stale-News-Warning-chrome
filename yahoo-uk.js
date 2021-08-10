@@ -4,7 +4,7 @@
 jQuery( function( $ ) {
 	// Extract the publication date from the page HTML
 	var published = $( 'abbr' ).attr( 'title' );
-	
+
 	// Pass the date string to the date-checking function
 	dateCheck( published );
 } );

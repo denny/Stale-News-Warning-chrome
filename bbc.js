@@ -9,7 +9,7 @@ jQuery( function( $ ) {
 	if ( published == '' ) {
 		published = $( 'div[class="date date--v2"]' ).attr( 'data-datetime');
 	}
-	
+
 	// Pass the date string to the date-checking function
 	dateCheck( published );
 } );
