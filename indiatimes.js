@@ -3,9 +3,9 @@
 
 jQuery( function( $ ) {
 	// Extract the publication date from the page HTML
-	var published = $( 'div[class="fl author_cont"]' 
+	var published = $( 'div[class="fl author_cont"]'
 		).find( 'div[class="author_cont"]' ).find( 'div:not([class])' ).text();
-	
+
 	// Pass the date string to the date-checking function
 	dateCheck( published );
 } );

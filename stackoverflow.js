@@ -4,7 +4,7 @@
 jQuery( function( $ ) {
   // Extract the publication date from the page HTML
   var published = $('table#qinfo td:contains("asked")').next('td').find('p').attr('title');
-  
+
   // Pass the date string to the date-checking function
   dateCheck( published );
 } );

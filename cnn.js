@@ -8,13 +8,13 @@ jQuery( function( $ ) {
 	published = $( 'p[class="update-time"]' ).text();
 	published = published.replace( /^.*\)/i, '' );
 	published = published.replace( /\|.*$/i, '' );
-	
+
 	if ( published == '' ) {
 		published = $( 'div[class="cnn_strytmstmp"]' ).text();
 		published = published.replace( /^.*}/i, '' );
 		published = published.replace( /--.*$/i, '' );
 	}
-	
+
 	// Pass the date string to the date-checking function
 	dateCheck( published );
 } );
